@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#content-container {
+    padding: 20px;
+}
+
+.folder, .file {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#readme-content {
+    max-width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling if content overflows */
+}
+
+/* Style images to fit within the div and maintain aspect ratio */
+#readme-content img {
+    max-width: 100%;
+    height: auto;
+}
